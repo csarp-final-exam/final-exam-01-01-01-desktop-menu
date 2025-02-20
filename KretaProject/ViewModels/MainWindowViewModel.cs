@@ -26,7 +26,7 @@ namespace KretaProject.ViewModels
         [RelayCommand]
         private void ShowStudentView()
         {
-            CurrentView = _schoolClassViewModel;
+            CurrentView = _studentViewModel;
         }
 
     }
