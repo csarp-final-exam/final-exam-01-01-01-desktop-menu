@@ -26,5 +26,6 @@
                 </MenuItem>
             </Menu>
         </DockPanel>
+        <ContentControl Content="{Binding CurrentView}" />
     </StackPanel>
 </Window>
