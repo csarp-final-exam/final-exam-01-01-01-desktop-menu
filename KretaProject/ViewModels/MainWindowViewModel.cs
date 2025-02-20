@@ -5,6 +5,6 @@ namespace KretaProject.ViewModels
     public partial class MainWindowViewModel : ObservableObject
     {
         [ObservableProperty]
-        public object _currentView = new object();
+        public object _currentView = new ControlPanelViewModel();
     }
 }
