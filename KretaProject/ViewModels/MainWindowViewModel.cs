@@ -1,4 +1,5 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.Input;
 
 namespace KretaProject.ViewModels
 {
@@ -15,5 +16,18 @@ namespace KretaProject.ViewModels
         {
             _currentView = _controlPanelViewModel;
         }
+
+        [RelayCommand]
+        private void ShowControlPanalView()
+        {
+            CurrentView = _controlPanelViewModel;
+        }
+
+        [RelayCommand]
+        private void ShowStudentView()
+        {
+            CurrentView = _schoolClassViewModel;
+        }
+
     }
 }
