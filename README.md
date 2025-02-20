@@ -1,1 +1,1 @@
-# final-exam-01-01-01-menu
+Készítsen alkalmazást KretaProject néven amelyben adott egy "Kréta" menüpont, annak legyen három almenüpontja: "Vezérlőpult", "Diákok" és "Osztályok". A menüpontok kiválasztása esetén jelenjen meg egy-egy form egy felirattal, amely megegyezik a menüpont nevével. A program indulásakor a "Vezélrőpult" menüpont legyen az aktuális menüpont. 
